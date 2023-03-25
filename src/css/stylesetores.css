@@ -1,23 +1,59 @@
-.principal {
-    background-color: #ffff;
-    max-width: 400px;
-    min-width: 300px;
+body {
+    background-color: #000000;
+    background-image: url('../images/background-2.jpg');
+    background-size: cover ;
+    background-attachment: fixed;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.cabecalho {
+    background-color: #fff;
+    border-bottom: 5px solid #0f2632;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-arrow-circle-left {
+    font-size: 30px;
+    color: #0f2632;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.setores {
+    background-color: #ffffffbb;
+    margin: auto;
+    max-width: 600px;
     padding: 20px;
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    border-radius: 20px;
-    box-shadow: 1px 2px 7px rgba(8, 8, 10, 0.849);
+    border-radius: 0px 0px 20px 20px;
 }
 
-.botoes {
-    display: flex;
-    flex-direction: column;
+.setores input {
+    width: 300px;
+    height: 60px;
+    font-size: 30px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: 0.3s;
 }
 
-input {
-    width: 440px;
-    height: 100px;
-    font-size: 40px;
+.setores input:hover {
+    background-color: rgb(5, 90, 5);
+    color: #fff;
 }
