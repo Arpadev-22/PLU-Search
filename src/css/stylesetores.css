@@ -1,4 +1,8 @@
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-color: #000000;
     background-image: url('../images/background-2.jpg');
     background-size: cover ;
@@ -19,11 +23,14 @@ body {
 
 .cabecalho {
     background-color: #fff;
-    border-bottom: 5px solid #0f2632;
-    padding: 10px;
+    width: 350px;
+    padding: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 20px;
 }
 
 .fa-arrow-circle-left {
@@ -35,26 +42,32 @@ body {
 }
 
 .setores {
-    background-color: #ffffffbb;
-    margin: auto;
-    max-width: 600px;
-    padding: 20px;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 0px 0px 20px 20px;
 }
 
-.setores input {
-    width: 300px;
-    height: 60px;
-    font-size: 30px;
-    margin: 5px;
-    border-radius: 5px;
+.setores button {
+    width: 400px;
+    height: 70px;
+    margin: 1px;
+    font-size: 40px;
     transition: 0.3s;
+    cursor: pointer;
 }
 
-.setores input:hover {
+.botoes-flex {
+    display: flex;
+    align-items: center;
+}
+
+.setores button:hover {
     background-color: rgb(5, 90, 5);
     color: #fff;
+}
+
+.itens-setores {
+    margin-left: 30px;
+    margin-right: 60px;
 }
