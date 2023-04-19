@@ -41,20 +41,84 @@ body {
     cursor: pointer;
 }
 
+.fa-arrow-circle-left:hover {
+    color: #243ed6;
+}
+
 .setores {
-    background-color: #ffffff;
+    background-color: #ffffffb3;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 10px;
 }
 
 .setores button {
-    width: 400px;
+    width: 450px;
     height: 70px;
     margin: 1px;
     font-size: 40px;
     transition: 0.3s;
     cursor: pointer;
+    color: #fff;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#hortifruti {
+    background-color: rgb(2, 96, 2);
+}
+
+#hortifruti:hover {
+    background-color: rgb(8, 164, 8);
+}
+
+#frios {
+    background-color: rgb(1, 1, 89);
+}
+
+#frios:hover {
+    background-color: rgb(17, 17, 188);
+}
+
+#acougue {
+    background-color: rgb(190, 3, 3);
+}
+
+#acougue:hover {
+    background-color: rgb(238, 4, 4);
+}
+
+#padaria {
+    background-color: rgb(220, 95, 6);
+}
+
+#padaria:hover {
+    background-color: rgb(243, 120, 32);
+}
+
+#mercearia {
+    background-color: rgb(221, 95, 95);
+}
+
+#mercearia:hover {
+    background-color: rgb(242, 119, 119);
+}
+
+#restaurante {
+    background-color: rgb(113, 35, 35);
+}
+
+#restaurante:hover {
+    background-color: rgb(146, 43, 43);
+}
+
+#perfumaria {
+    background-color: rgb(120, 120, 228);
+}
+
+#perfumaria:hover {
+    background-color: rgb(147, 147, 230);
 }
 
 .botoes-flex {
@@ -62,12 +126,7 @@ body {
     align-items: center;
 }
 
-.setores button:hover {
-    background-color: rgb(5, 90, 5);
-    color: #fff;
-}
-
 .itens-setores {
-    margin-left: 30px;
-    margin-right: 60px;
+    margin-left: 40px;
+    margin-right: 70px;
 }
